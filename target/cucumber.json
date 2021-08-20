@@ -1,0 +1,174 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify search result display",
+        "description": "",
+        "id": "home-page;verify-search-result-display",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3368002000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Open Application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDeffHomePage.open_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 179698700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter XPS in SearchField",
+            "match": {
+              "location": "StepDeffHomePage.enter_XPS_in_SearchField()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3046916800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on SearchLink",
+            "match": {
+              "location": "StepDeffHomePage.click_on_SearchLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 459751600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify search result display",
+            "match": {
+              "location": "StepDeffHomePage.verify_search_result_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@BD"
+          }
+        ]
+      }
+    ],
+    "name": "Home page",
+    "description": "",
+    "id": "home-page",
+    "keyword": "Feature",
+    "uri": "HomeBD.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user can login",
+        "description": "",
+        "id": "login;verify-user-can-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2246103800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open Application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDeffHomePage.open_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 150094400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Signinbutton",
+            "match": {
+              "location": "StepDeffLoginPage.click_on_Signinbutton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2583547500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click Signinlink",
+            "match": {
+              "location": "StepDeffLoginPage.click_Signinlink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 509331100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter user pass and click signin",
+            "match": {
+              "location": "StepDeffLoginPage.Enter_user_pass_and_click_signin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 214109500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify user can login",
+            "match": {
+              "location": "StepDeffLoginPage.verify_user_can_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@BD"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "LoginBD.feature"
+  }
+]
